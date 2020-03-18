@@ -1,0 +1,28 @@
+{
+  "name": "theme-luck-dark-vscode",
+  "displayName": "luck Dark",
+  "description": "Theme for Visual Studio Code",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuckRain7/theme-luck-dark-vscode.git"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "luckrain",
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Luck Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luck-dark-color-theme.json"
+      }
+    ]
+  }
+}
